@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Ubuntu&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #219ebc;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: bold;
+    text-align: center;
+    padding: 10px;
+}
+.counter-container{
+    margin: 20px;
+    font-family:inherit ;
+    border:1px solid #bbb;
+    border-radius: 10px;
+}
+.icon{
+    font-size: 20px;
+}
+.countain{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px auto;
+    width:100px ;
+}
+
+@media screen and (max-width:850px) {
+    body{
+        background-color: #457b9d;
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .counter-container{
+        margin: 5px;
+        border:1px solid #219ebc;
+        border-radius: 10px;
+    }
+    
+}
